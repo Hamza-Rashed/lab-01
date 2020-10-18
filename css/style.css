@@ -1,14 +1,73 @@
-.first-section img{
-    float: left;
-}
-article{
-    background-color: red;
-    width: 57.7%;
+main {
+    width: 1000px;
+    height: auto;
 }
 
-section{
-    margin: 0;
+article {
+    width: 1000px;
+    margin-left: 0%;
 }
-.second-section img{
-    float: right;
+
+.first-section img {
+    float: left;
+    margin-left: 0;
+}
+
+.second-section {
+    height: 603px;
+}
+
+.first-side img {
+    float: left;
+}
+
+.second-side img {
+    float: left;
+}
+
+img {
+    border: 1px solid rgb(129, 128, 128);
+}
+
+@media only screen and (max-width: 767px) {
+
+    main {
+        width: 500px;
+        height: auto;
+    }
+    
+    article {
+        width: 500px;
+        margin-left: 0%;
+    }
+
+    .a {
+        width: 480px;
+        height: 75px;
+    }
+
+    .b {
+        width: 480px;
+        height: 150px;
+    }
+
+    .c,
+    .d {
+        width: 480px;
+        height: 125px;
+    }
+
+    .e,
+    .f,
+    .g,
+    .h {
+        width: 240px;
+        height: 250px;
+    }
+
+    .i {
+        width: 480px;
+        height: 80px;
+    }
+
 }
