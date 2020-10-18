@@ -1,0 +1,14 @@
+.first-section img{
+    float: left;
+}
+article{
+    background-color: red;
+    width: 57.7%;
+}
+
+section{
+    margin: 0;
+}
+.second-section img{
+    float: right;
+}
